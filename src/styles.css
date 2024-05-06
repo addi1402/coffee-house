@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  background-color: rgb(255, 251, 249);
+}
+
+.App {
+  font-family: "Segoe UI";
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.brand {
+  width: 5rem;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.card-sold {
+  filter: grayscale(100%);
+  color: gray;
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.statement,
+.intro {
+  font-weight: 500;
+}
